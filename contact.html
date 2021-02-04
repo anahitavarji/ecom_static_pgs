@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+ <html lang="en">
+  <head>
+ <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=">
+  <title> My contact page </title>
+        
+  <link rel="stylesheet" href="contact.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+       
+ 
+        
+            
+<body>
+  <script>
+    function validateForm() {
+        var x = document.forms["form1"]["name"].value;
+        var y = document.forms["form1"]["email"].value;
+        if (x == "" && y == "") {
+          alert("Name and email must be filled out");
+          return false;
+        } else if (x == ""){
+            alert("Name must be filled out");
+            return false;
+        } else if (y == "") {
+            alert("Email must be filled out")
+            return false;
+        } else {
+            return true
+        }
+      }
+    </script>
+    
+    <header>   
+   <nav class= "nav"> 
+   <ul> 
+    <li><a href="./index.html">Home</a></li>
+    <li><a href="product.html">Discover </a></li>
+     <li><a href="./contact.html">Contact</a></li>
+  </ul>
+ </nav>
+    </header>
+      
+      
+ <main id="hero-image3">
+   <div class="hero-text">
+      <h1> Contact Us </h1>
+    </div>
+  </main>   
+      
+
+ 
+ <section class="container">
+   <h6>Contact form</h6>
+ <form name="form1" action="/submit.php" onsubmit="validateForm()" method="POST" id="contact-form">
+   
+   <section class="form-group">
+    <h6> First Name </h6>
+   <label class="label" for="firstname"> First Name: </label>
+   <input type="text" name="First Name" id="firstname" required>
+   </section>
+    <section class="form-group">
+      <h6> Last Name </h6>
+   <label class="label" for="lastname"> Last Name: </label>
+   <input type="text" name="Last Name" id="lastname" required>
+    </section>
+     <section class="form-group">
+      <h6> Phone Number </h6>
+    <label class="label" for="number"> Phone Number: </label>
+   <input type="text" name="Phone Number" id="number" required>
+     </section>
+     
+      <section class="form-group">
+        <h6> Email </h6>
+    <label class="label" for="email"> Email: </label>
+   <input type="text" name="Email" id="email" required>
+      </section>
+     
+  
+   <section class="form-group">
+    <h6> Message </h6>
+     <label class="label" for="message">Message:</label>
+     <textarea name="message" id="message"></textarea>
+     <button type="submit" class="btn"> Submit </button>
+   </section>
+   </form>
+   </section>
+   
+      
+      
+      
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+  
+
+      
+     
+     
+     <footer class="footer"> 
+    <p> <a href="https://twitter.com/">Twitter <i class=" fa fa-twitter-square"></i> </a></p>
+    <p> <a href="https://www.instagram.com/"> Instagram <i class=" fa fa-instagram"></i></a></p>
+    <p> <a href="https://www.facebook.com/"> Facebook <i class=" fa fa-facebook"></i></a></p>
+    <p class="copyrights"> Anahita Ahmadivarji &copy; 2020, All Rights Reserved </p>
+  </footer>   
+  <script src="script.js"></script>   
+ </body>
+ </html>

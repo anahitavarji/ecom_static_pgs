@@ -1,0 +1,159 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+   background-color: wheat;
+}
+
+
+nav {
+ background-color: rgba(31, 28, 28, 0.5);
+}
+
+
+.nav li {
+  float: center;
+  
+}
+
+.nav li a{
+  display: block;
+  text-align: center;
+  padding-right: 50px;
+  text-decoration: none;
+  font-size: 35px;
+  color: white;
+text-shadow: 1px 1px 1px black;
+background-color: #404040;
+font-style: oblique;
+}
+
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  width: 100%;
+  background-color: rgba(31, 28, 28, 0.5);
+}
+
+.footer {
+  color: slategrey;
+  padding: 20px;
+  margin-top: 30px;
+  color: white;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  
+}
+
+.footer a {
+  padding: 20px;
+  font-size: 8px;
+  text-shadow: 0.5px 0.5px 0.5px black;
+}
+
+.copyrights {
+  margin-top: 8px;
+  font-size: 8px;
+  text-shadow: 0.5px 0.5px 0.5px black;
+}
+
+
+a {
+  text-decoration: none;
+  color:white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+.card-container {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+}
+
+.card {
+  height: 400px;
+  width: 200px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #f8c498;
+} 
+
+#hero-image3 {
+  background-image:  url("https://images.unsplash.com/photo-1598580852245-567874b2dc7a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2734&q=80");
+  height: 350px;
+  width:  100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;  
+  overflow: hidden;
+}
+.hero-text{
+  padding-top: 200px;
+  margin: auto;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  font-size: 20px;
+  font-style: oblique;
+}
+ 
+
+
+    
+.container {
+  padding: 15px;
+  color: white;
+text-shadow: 0.5px 0.5px black;
+border-style: dotted;
+margin: 15px auto;
+width: 200px;
+border-radius: 15px;
+text-align: center;
+font-size: 15px;
+}
+
+input[type="text"], select, textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  margin-bottom: 3px;
+  
+}
+
+input[type="submit"] {
+  background-color: black; 
+  color: white;
+  padding: 12px 20px;
+  /* cursor: pointer; */
+}
+
+.btn {
+  cursor: pointer;
+  font-style: oblique;
+}
+
+
+input[type="submit"]:hover {
+/* change look of the mouse */
+  background-color: white;
+  color: black;
+}
+
+h6 {
+  display: none;
+}
+
+.label {
+  font-style: oblique;
+}
